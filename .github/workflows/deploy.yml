@@ -21,7 +21,7 @@ jobs:
       - name: Deploy to WebApp
         run: |
           az webapp config container set \
-          -g ss-lab-rg \
+          -g ss-lab-rg-AlexD \
           -n sslab-webappAlexD \
           --container-image-name sslablabacralexd.azurecr.io/myapp:latest \
           --container-registry-url https://sslablabacralexd.azurecr.io \
