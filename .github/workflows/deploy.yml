@@ -22,7 +22,7 @@ jobs:
         run: |
           az webapp config container set \
           -g ss-lab-rg-AlexD \
-          -n sslab-webappAlexD \
+          -n sslab-webapp-AlexD \
           --container-image-name sslablabacralexd.azurecr.io/myapp:latest \
           --container-registry-url https://sslablabacralexd.azurecr.io \
           --container-registry-user ${{secrets.ACR_USER}} \
